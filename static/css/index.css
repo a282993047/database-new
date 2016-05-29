@@ -1,0 +1,110 @@
+body {
+    color: #9b9b9b;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    padding-top: 99px;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none!important;
+}
+div {
+    display: block;
+}
+
+#page {
+    position: relative;
+    z-index: 20;
+    background: #fff;
+}
+
+header#menu-top {
+    padding: 25px 0;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1500;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+header#menu-top nav {
+    float: right;
+    display: inline-block;
+}
+
+header#menu-top nav a {
+    margin: 0 25px;
+    font-size: 14px;
+
+}
+header a{
+    color: #008EE2!important;
+}
+.icon-box a{
+    color:black;
+}
+.btn-action{
+    color: #fff!important;
+    background-color: #008EE2;
+    border-radius: 30px!important;
+}
+
+.bg-light {
+    background-color: #98AECC;
+    color: #fff;
+}
+
+section {
+    padding: 100px 0;
+}
+
+section header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bg-light h1, .bg-light h2 {
+    color: white;
+    font-size: 40px;
+}
+
+span.iconarrow {
+    text-align: center;
+    display: block;
+}
+
+.iconarrow{
+    text-align: center;
+    display: block!important;
+}
+span.iconarrow a{
+    height: 25px;
+    width: 42px;
+    display: inline-block;
+    background: url("../img/icon_arrow.png") no-repeat 0 -25px;
+}
+
+span.iconarrow a:hover{
+    background: url("../img/icon_arrow.png") no-repeat 0 0px;
+    transition: 0.5s;
+}
+
+.icon-box {
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}
